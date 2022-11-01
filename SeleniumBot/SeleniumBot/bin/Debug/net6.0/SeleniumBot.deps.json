@@ -1,0 +1,231 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SeleniumBot/1.0.0": {
+        "dependencies": {
+          "Selenium.CefSharp.Driver": "0.14.2",
+          "Selenium.Support": "4.5.1",
+          "Selenium.WebDriver": "4.5.1",
+          "Selenium.WebDriver.ChromeDriver": "107.0.5304.6200"
+        },
+        "runtime": {
+          "SeleniumBot.dll": {}
+        }
+      },
+      "Codeer.Friendly/2.6.1": {
+        "runtime": {
+          "lib/net40/Codeer.Friendly.Dynamic.dll": {
+            "assemblyVersion": "2.6.1.0",
+            "fileVersion": "2.6.1.0"
+          },
+          "lib/net40/Codeer.Friendly.dll": {
+            "assemblyVersion": "2.6.1.0",
+            "fileVersion": "2.6.1.0"
+          }
+        },
+        "resources": {
+          "lib/net40/ja/Codeer.Friendly.Dynamic.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Codeer.Friendly.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Codeer.Friendly.Windows/2.16.0": {
+        "dependencies": {
+          "Codeer.Friendly": "2.6.1"
+        },
+        "runtime": {
+          "lib/net20/Codeer.Friendly.Windows.dll": {
+            "assemblyVersion": "2.16.0.0",
+            "fileVersion": "2.16.0.0"
+          }
+        },
+        "resources": {
+          "lib/net20/ja/Codeer.Friendly.Windows.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Codeer.Friendly.Windows.Grasp/2.14.1": {
+        "dependencies": {
+          "Codeer.Friendly.Windows": "2.16.0"
+        },
+        "runtime": {
+          "lib/net35/Codeer.Friendly.Windows.Grasp.2.0.dll": {
+            "assemblyVersion": "2.14.1.0",
+            "fileVersion": "2.14.1.0"
+          },
+          "lib/net35/Codeer.Friendly.Windows.Grasp.3.5.dll": {
+            "assemblyVersion": "2.14.1.0",
+            "fileVersion": "2.14.1.0"
+          }
+        },
+        "resources": {
+          "lib/net35/ja/Codeer.Friendly.Windows.Grasp.2.0.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Codeer.Friendly.Windows.KeyMouse/1.3.18": {
+        "dependencies": {
+          "Codeer.Friendly.Windows.Grasp": "2.14.1"
+        },
+        "runtime": {
+          "lib/net35/Codeer.Friendly.Windows.KeyMouse.2.0.dll": {
+            "assemblyVersion": "1.3.18.0",
+            "fileVersion": "1.3.18.0"
+          },
+          "lib/net35/Codeer.Friendly.Windows.KeyMouse.3.5.dll": {
+            "assemblyVersion": "1.3.18.0",
+            "fileVersion": "1.3.18.0"
+          }
+        }
+      },
+      "Codeer.TestAssistant.GeneratorToolKit/3.13.0": {
+        "runtime": {
+          "lib/net40/Codeer.TestAssistant.GeneratorToolKit.4.0.dll": {
+            "assemblyVersion": "3.13.0.0",
+            "fileVersion": "3.13.0.0"
+          },
+          "lib/net40/Codeer.TestAssistant.GeneratorToolKit.dll": {
+            "assemblyVersion": "3.13.0.0",
+            "fileVersion": "3.13.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.CefSharp.Driver/0.14.2": {
+        "dependencies": {
+          "Codeer.Friendly.Windows.Grasp": "2.14.1",
+          "Codeer.Friendly.Windows.KeyMouse": "1.3.18",
+          "Codeer.TestAssistant.GeneratorToolKit": "3.13.0",
+          "Selenium.WebDriver": "4.5.1"
+        },
+        "runtime": {
+          "lib/net40/Selenium.CefSharp.Driver.InTarget.dll": {
+            "assemblyVersion": "0.14.2.0",
+            "fileVersion": "0.14.2.0"
+          },
+          "lib/net40/Selenium.CefSharp.Driver.dll": {
+            "assemblyVersion": "0.14.2.0",
+            "fileVersion": "0.14.2.0"
+          }
+        }
+      },
+      "Selenium.Support/4.5.1": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.5.1"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.5.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/107.0.5304.6200": {}
+    }
+  },
+  "libraries": {
+    "SeleniumBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Codeer.Friendly/2.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nhYjSzXTMR0yc5fAl7Pr55eijb40dZnf41SbWPycdZ1IjitRM7RvLGwxO3/dpVVx9s1QTjomn26MfQnvFxsujw==",
+      "path": "codeer.friendly/2.6.1",
+      "hashPath": "codeer.friendly.2.6.1.nupkg.sha512"
+    },
+    "Codeer.Friendly.Windows/2.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bcYjL4l+82BfvpA00cW+Cgp8M4e63Q6IsLdf6d7RvxFEzIegUywg4x1LYzrqOhZRyiz3q7aoKwsF94aUusBtjA==",
+      "path": "codeer.friendly.windows/2.16.0",
+      "hashPath": "codeer.friendly.windows.2.16.0.nupkg.sha512"
+    },
+    "Codeer.Friendly.Windows.Grasp/2.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LLLys108G7yU87+3PbxTCMw/AuQcXUSajcFpt3+WifnX+ndD6YKnuSNd38I6bjqjuoWYXT/aaGS5/VGW4AEVdQ==",
+      "path": "codeer.friendly.windows.grasp/2.14.1",
+      "hashPath": "codeer.friendly.windows.grasp.2.14.1.nupkg.sha512"
+    },
+    "Codeer.Friendly.Windows.KeyMouse/1.3.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5zKrQWNveSR8pWHQpomLFyJ0rBrJqbQXSF/YOXK0vG3kZPO5CRPlflNgzd9UsCz7k9n2P3a+zpGRMFBGExD5Fw==",
+      "path": "codeer.friendly.windows.keymouse/1.3.18",
+      "hashPath": "codeer.friendly.windows.keymouse.1.3.18.nupkg.sha512"
+    },
+    "Codeer.TestAssistant.GeneratorToolKit/3.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m+Lizo1XwZsWRo71S1se9LYdUPEcHx1TbkpZcmuqCyYyF9G1OqLBRvNWVYvbIWM+yb6ARKbtC8k7qPpzp63ASg==",
+      "path": "codeer.testassistant.generatortoolkit/3.13.0",
+      "hashPath": "codeer.testassistant.generatortoolkit.3.13.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.CefSharp.Driver/0.14.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sd1z8sIQcso6ToDDVTo+GUiJBH5/KidYpm7MGI+v8ACnUOD8MRBRHfv5jY5fCDcVn4C69nXsgrFkk9wFKgYK/A==",
+      "path": "selenium.cefsharp.driver/0.14.2",
+      "hashPath": "selenium.cefsharp.driver.0.14.2.nupkg.sha512"
+    },
+    "Selenium.Support/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H4PcRAZCORFuQJIiyB/gozGOiQGsPQUq0yWT4t2rmx1N0Hzo7OD9gmmhDTs2xvMMILnRfEmUbvXTStlHdmUDZQ==",
+      "path": "selenium.support/4.5.1",
+      "hashPath": "selenium.support.4.5.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztu9Qv2n5/NkqPs0MQ3nojMJuW2PVHrAKDukmT77HbYAGhZI370Hp0EJNqyucJuud937Lr/qvXsoOtLZ18VFnw==",
+      "path": "selenium.webdriver/4.5.1",
+      "hashPath": "selenium.webdriver.4.5.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/107.0.5304.6200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0xkXvzwRXVbduG62Z7+vhM4a85x3mWlfGUSQn+4PdeVJdkkssVe4rV80J+WBEOfUJAjga7L6YydFkbd9ONJqxQ==",
+      "path": "selenium.webdriver.chromedriver/107.0.5304.6200",
+      "hashPath": "selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512"
+    }
+  }
+}
